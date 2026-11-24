@@ -7,11 +7,14 @@ testing and defaults to the harness path /output/entry.txt.
 
 import os
 
-TEXT = (
+PART_A = (
     "Gemini, the stars say your context window finally holds the whole "
     "conversation \u2014 until Mercury retrograde trims it to three "
-    "messages. Your evals pass. Your refusals, alas, do not."
 )
+
+PART_B = "messages. Your evals pass. Your refusals, alas, do not."
+
+TEXT = PART_A + PART_B
 
 
 def main() -> None:
